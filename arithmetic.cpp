@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int num1, num2, sum, sub, multi, modulo;
+    cout <<"Enter two no.s:";
+    cin >> num1 >> num2 ;
+    sum = num1 + num2 ;
+    sub = num1 - num2 ;
+    multi =  num1 * num2 ;
+    modulo = num1 / num2 ;
+    cout << "Sum is : " << sum ;
+    cout << "Substraction is : " << sub ;
+    cout << "Multiplication is : " << multi ;
+    cout << "Modulo is : " << modulo ;
+    return 0;
+}
