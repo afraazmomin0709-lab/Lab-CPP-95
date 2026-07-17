@@ -8,7 +8,7 @@ int main()
     sum = num1 + num2 ;
     sub = num1 - num2 ;
     multi =  num1 * num2 ;
-    modulo = num1 / num2 ;
+    modulo = num1 % num2 ;
     cout << "Sum is : " << sum ;
     cout << "Substraction is : " << sub ;
     cout << "Multiplication is : " << multi ;
