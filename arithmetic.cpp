@@ -9,9 +9,9 @@ int main()
     sub = num1 - num2 ;
     multi =  num1 * num2 ;
     modulo = num1 % num2 ;
-    cout << "Sum is : " << sum ;
-    cout << "Substraction is : " << sub ;
-    cout << "Multiplication is : " << multi ;
-    cout << "Modulo is : " << modulo ;
+    cout << "Sum is : " << sum <<"\n";
+    cout << "Substraction is : " << sub <<"\n";
+    cout << "Multiplication is : " << multi <<"\n";
+    cout << "Modulo is : " << modulo <<"\n";
     return 0;
 }
