@@ -26,6 +26,7 @@ namespace SYCS4
     return 0;
 }
  int div()
+ 
 {
     int a,b,div;
     std::cout << "Enter two numbers:";
