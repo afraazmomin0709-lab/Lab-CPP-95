@@ -6,9 +6,9 @@ int area(int, int);
 float area(float);
 
 int main(){
-    cout << "Area of Square (side - 5) - " << area(5) << "\n";
-    cout << "Area of Rectangle (length = 5, breadth = 10) - " << area(5,10) << "\n";
-    cout << "Area of Circle (radius = 5.5) - " << area(5.5f) << "\n";
+    cout << "Area of Square (side - 5) = "<< area(5) << "\n";
+    cout << "Area of Rectangle (length = 5, breadth = 10) = "<< area(5,10) << "\n";
+    cout << "Area of Circle (radius = 5.5) = "<< area(5.5f) << "\n";
     return 0;
 }
 int area (int side){
