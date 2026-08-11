@@ -2,7 +2,7 @@
 #include <string>
 using namespace std; 
 class Student {
-   private:
+   public:
     string name;
    int rollNo;
     float marks;
@@ -26,6 +26,8 @@ class Student {
     int main() { 
       Student s; 
       s.inputDetails(); 
+      s.rollNo=100;
       s.displayDetails(); 
       return 0; 
     } 
+    
