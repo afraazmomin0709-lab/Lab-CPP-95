@@ -58,7 +58,8 @@ transactionFee = fee;
 void deposit(double amount) { 
 if (amount > 0) { 
 balance += amount; 
-cout << "Deposited: ₹" << amount << endl; 
+balance = balance -20; 
+cout << "Deposited (20₹ transaction fee); ₹" << amount << endl; 
 } 
 } 
 void withdraw(double amount) { 
